@@ -1,0 +1,17 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+
+management:  health:    diskspace:
+      #디스크 공간 표시 활성화 여부      enabled: false
+  endpoints:    web:      exposure:
+        # 모든 endpoints 를 보이도록 활성화 시킴        include:        - '*'
+      # actuator 기본 베이스 url 을 아래로 변경함
+      base-path: /ac  
+  # /actuator 접근 서버를 지정함      
+  server:    address: localhost
+    port: 8080           
+    

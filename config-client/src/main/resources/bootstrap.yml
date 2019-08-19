@@ -1,8 +1,12 @@
 spring:
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://localhost:8889
+      
   application:
     name: client1
+    
   profiles:
     active: development
+    
+management:  endpoints:    web:      exposure:        include:        - refresh

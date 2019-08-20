@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: search-apigateway
+
+zuul:  routes:
+    search-apigateway:
+      #service-id: search-apigateway
+      path: /api/**
+      url: http://localhost:565
+
+server:  port: 8095  

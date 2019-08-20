@@ -1,10 +1,15 @@
 # spring-cloud
 
+Compare Spring cloud Eureka with Kubernetes
+
+[https://zetawiki.com/wiki/Spring_Cloud%EC%99%80_Kubernetes_%EA%B8%B0%EC%88%A0%EC%8A%A4%ED%83%9D]
+
+
 ## MSA 설계 원칙
 
-- 자율적인 기능 
+- 자율적인 기능
 - 배포 단위의 크기
-- 분리하기에 가장 적합한 기능 또는 서브 도메인 
+- 분리하기에 가장 적합한 기능 또는 서브 도메인
 - 폴리글랏 아키텍쳐
 - 선택적 확장
 - 애자일 팀과 협력 개발
